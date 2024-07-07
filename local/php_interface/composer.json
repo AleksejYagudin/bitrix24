@@ -1,0 +1,10 @@
+{
+    "name": "mib/crm",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Mib\\Crm\\": "classes/"
+        }
+    },
+    "require": {}
+}
