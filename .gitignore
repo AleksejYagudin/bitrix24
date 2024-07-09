@@ -1,4 +1,5 @@
 /.idea/*
+/.idea/workspace.xml
 /bitrix/*
 !/bitrix/php_interface/
 !/bitrix/templates/
