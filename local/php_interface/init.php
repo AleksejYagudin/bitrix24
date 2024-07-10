@@ -1,5 +1,9 @@
 <?php
 
+use Bitrix\Main\Loader;
+
+Loader::includeModule('mycompany.custom');
+
 spl_autoload_register(function($sClassName)
 {
     $sClassFile = __DIR__.'/classes';
