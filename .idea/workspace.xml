@@ -31,15 +31,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/local/modules/mycompany.custom/lib/eventhandlers/iblock.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="test.loc" id="ce2dc2de-c0d7-47b1-804d-2d9465a92998" name="test.loc" port="443" />
+      <server host="test.loc" id="4d3dc07f-e426-4328-9e67-722399b177bf" name="test.loc (1)" />
     </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.1" />
@@ -82,7 +81,7 @@
       <workItem from="1720358576515" duration="687000" />
       <workItem from="1720597693251" duration="7970000" />
       <workItem from="1720683839697" duration="6620000" />
-      <workItem from="1720763922573" duration="3226000" />
+      <workItem from="1720763922573" duration="10343000" />
     </task>
     <servers />
   </component>
