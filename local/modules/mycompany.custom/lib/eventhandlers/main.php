@@ -2,6 +2,8 @@
 
 namespace MyCompany\Custom\EventHandlers;
 
+use Bitrix\Market\Extension;
+
 class Main
 {
     static function redirectFromTestPage(): void
@@ -13,5 +15,10 @@ class Main
         {
             LocalRedirect('/');
         }
+    }
+
+    static function customExtension(): void
+    {
+        \Bitrix\Main\UI\Extension::load('Mib.test');
     }
 }

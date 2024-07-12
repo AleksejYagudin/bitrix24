@@ -15,7 +15,11 @@ $eventManager->addEventHandler('iblock', 'OnAfterIblockElementAdd', [
 
 $eventManager->addEventHandler('main', 'onProlog', [
     '\MyCompany\Custom\EventHandlers\Main',
-    'redirectFromTestPage'
+    'customExtension'
 ]);
 
+$eventManager->addEventHandler('crm', 'OnAfterCrmControlPanelBuild', [
+    '\MyCompany\Custom\EventHandlers\Iblock',
+    'onLink'
+]);
 

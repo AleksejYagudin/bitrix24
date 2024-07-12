@@ -32,7 +32,34 @@ class Iblock
             'ITEM_ID' => $newsId,
             'DESCRIPTION' => "Добавлена новость [$newsId] - [$newsName] от [$author]"
         ]);
+    }
 
+    static function onLink(&$items)
+    {
+        foreach ($items as &$arItem) {
+            if($arItem['ID'] == 'crm_analytics') {
+                $l1=1;
+                $newItem = [
+                        'ID' => 'TEST_ITEM',
+                        'NAME' => 'Тест',
+                        'URL' => '',
+                        'MENU_ID' => 'test_menu_item',
+                        'TEXT' => 'Тест',
+                        //'ON_CLICK' => "console.log('Привет123')"
+                        'ON_CLICK' => "var request = BX.ajax.runComponentAction('mib:report.detail', 'sendDoc', {
+                            mode: 'class',
+                            data: {
+                            sessid: BX.message('bitrix_sessid')
+                            }
+                            });
+                            // промис в который прийдет ответ
+                            request.then(function (response) {
+                            console.log('Привет321');
+                            })"
+                    ];
+                array_push($arItem['ITEMS'], $newItem);
+            }
+        }
 
     }
 }
