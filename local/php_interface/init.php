@@ -34,3 +34,9 @@ foreach( [
         require_once($filePath);
     }
 }
+
+$eventManager = \Bitrix\Main\EventManager::getInstance();
+$eventManager->addEventHandler('main', 'OnUserTypeBuildList', [
+    '\Main\GroupBinding',
+    'getUserTypeDescription'
+]);
