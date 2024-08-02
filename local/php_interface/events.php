@@ -20,3 +20,12 @@ $eventManager->addEventHandler(
         'changeColorButton'
     ]
 );
+
+$eventManager->addEventHandler(
+    'main',
+    'onEpilog',
+    [
+        '\\Mib\\Events\\Test',
+        'newLeftMenuItem'
+    ]
+);
