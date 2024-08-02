@@ -11,3 +11,12 @@ $eventManager->addEventHandler(
         'testFunction'
     ]
 );
+
+$eventManager->addEventHandler(
+    'main',
+    'onEpilog',
+    [
+        '\\Mib\\Events\\Test',
+        'changeColorButton'
+    ]
+);
