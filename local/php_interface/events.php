@@ -29,3 +29,12 @@ $eventManager->addEventHandler(
         'newLeftMenuItem'
     ]
 );
+
+$eventManager->addEventHandler(
+    'main',
+    'OnUserTypeBuildList',
+    [
+        '\\Mib\\Currency\\CurrencyField',
+        'getUserTypeDescription'
+    ]
+);
