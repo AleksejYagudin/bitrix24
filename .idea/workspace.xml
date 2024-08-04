@@ -26,6 +26,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="test.loc" id="af9a396f-96cc-4cd6-8c7f-f8c6e8ab00bc" name="test.loc" />
@@ -42,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/OSPanel/home/test.loc/local/php_interface/templates/.default/components",
+    "last_opened_file_path": "D:/OSPanel/home/test.loc/local/php_interface/classes/Mib/Watcher",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,10 +55,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\home\test.loc\local\php_interface\classes\Mib\Watcher" />
+      <recent name="D:\OSPanel\home\test.loc\local\TEST" />
       <recent name="D:\OSPanel\home\test.loc\local\php_interface\templates\.default\components" />
       <recent name="D:\OSPanel\home\test.loc\local\components\mib" />
       <recent name="D:\OSPanel\home\test.loc\local\php_interface\classes\Mib\Currency" />
-      <recent name="D:\OSPanel\home\test.loc\local\TEST" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
