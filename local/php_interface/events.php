@@ -38,3 +38,21 @@ $eventManager->addEventHandler(
         'getUserTypeDescription'
     ]
 );
+
+$eventManager->addEventHandler(
+    'crm',
+    'OnBeforeCrmDealUpdate',
+    [
+        '\\Mib\\Deal\\Observer',
+        'handleOnBeforeCrmDealUpdate'
+    ]
+);
+
+$eventManager->addEventHandler(
+    'main',
+    'onProlog',
+    [
+        '\\Mib\\Kanban\\DealEntity',
+        'registerService'
+    ]
+);
